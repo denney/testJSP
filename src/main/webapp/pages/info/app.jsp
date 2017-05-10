@@ -343,9 +343,15 @@
 		
 		<script src="<c:url value='/pages/gridPage.js'/>"></script>
 		<script type="text/javascript">
+
+
 			$("#logSearch").click(function(){
+
+
+                jQuery("#grid-table").jqGrid("clearGridData");
 				var flag=$("#logSearch").attr("flag");
 		      	 if(flag=='show'){
+
 		      		 $("#searchDiv").slideUp();
 			         $("#logSearch").find("i").removeClass("fa-minus").addClass("fa-plus").end().attr("flag","hide");
 		      	 }else{
@@ -355,6 +361,7 @@
 			});
 			$("#searchButton").click(function(){
 				var appName = $.trim($("#searchAppName").val());
+
 				if(appName == ""){
 					$("#warning_title").text("提示");
 					$("#warning_text").text("请输入App名称！");
@@ -362,6 +369,7 @@
 					$("#warning").modal("show");Name
 					return;
 				}
+
 				jQuery("#grid-table").jqGrid('setGridParam',{postData:{"app.appName":$("#searchAppName").val()}, url:"json/searchByAppName"}).trigger("reloadGrid");
 			});
 			

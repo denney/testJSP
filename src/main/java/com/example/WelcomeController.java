@@ -32,7 +32,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.*;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 @Controller()
 public class WelcomeController {
@@ -148,8 +150,12 @@ public class WelcomeController {
     }
 
 
-
-
+    /**
+     * 根据名称模糊搜素记录
+     * @param request
+     * @return
+     * @throws JsonProcessingException
+     */
     @RequestMapping("/json/searchByAppName")
     @ResponseBody
     @Transactional
