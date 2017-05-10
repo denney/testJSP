@@ -348,13 +348,14 @@
 			$("#logSearch").click(function(){
 
 
-                jQuery("#grid-table").jqGrid("clearGridData");
+
 				var flag=$("#logSearch").attr("flag");
 		      	 if(flag=='show'){
 
 		      		 $("#searchDiv").slideUp();
 			         $("#logSearch").find("i").removeClass("fa-minus").addClass("fa-plus").end().attr("flag","hide");
 		      	 }else{
+                     jQuery("#grid-table").jqGrid("clearGridData");
 		      		 $("#searchDiv").slideDown();
 			         $("#logSearch").find("i").removeClass("fa-plus").addClass("fa-minus").end().attr("flag","show");
 		      	 } 
