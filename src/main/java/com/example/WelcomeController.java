@@ -169,6 +169,7 @@ public class WelcomeController {
 
 
         Map map =new HashMap();
+
         map.put("page", page);//当前页，前台传入
 
         map.put("total", pages.getTotalPages());//总页数，计算得出
