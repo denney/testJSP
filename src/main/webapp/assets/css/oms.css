@@ -1,0 +1,636 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+
+a,area {
+	blr: expression(this.onFocus = this.blur () )
+} /* ³¬Á´½ÓÈ¥µôÐéÏß¿ò for IE */
+:focus {
+	outline: none;
+} /*³¬Á´½ÓÈ¥µôÐéÏß¿ò for Firefox */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 12px/18px "Microsoft YaHei";
+	height: 100%;
+	color: #666666;
+}
+
+img {
+	border: 0;
+}
+
+ul,ol,li,p,form {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+button {
+	border: 0 none;
+	cursor: pointer;
+}
+
+.clearfix {
+	clear: both;
+	font: 0px/0px Arial;
+	overflow: hidden;
+	width: 100%; /*border-bottom: 1px solid #fe8d3f;*/
+}
+
+a {
+	text-decoration: none;
+	border: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.d_logo {
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.cm_logo {
+	margin-left: 12px;
+	padding-right: 2px;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+
+.oms_name {
+	height: 32px;
+	margin-top: 6px;
+	margin-left: 12px;
+	float: left;
+	line-height: 32px;
+	color: #666666;
+	font-size: 18px;
+}
+
+.log_m {
+	width: 100%;
+	height: 440px;
+	background: url(../img/bg.png) repeat-x;
+}
+.logpad{width:340px;height:416px;float:right;margin:24px 38px 0px 0px;background:url(../img/start.png) no-repeat;}
+.log_bg {
+	width: 100%;
+	max-width: 1200px;
+	height: 440px;
+	margin: 0 auto;
+	background: url(../img/bg1.png) no-repeat;
+	background-position: 50% 0;
+}
+/* .logpad{width:340px;height:416px;float:right;margin:24px 38px 0px 0px;} */
+.d_login {
+	width: 256px;
+	height: 340px;
+	margin: 0 auto;
+	padding-top: 24px;
+}
+
+.log_head {
+	height: 20px;
+	line-height: 20px;
+	font-size: 18px;
+	color: #666666;
+	overflow: hidden;
+	margin-bottom: 46px;
+}
+
+.log_head div {
+	float: left;
+}
+
+.log_input {
+	width: 232px;
+	height: 37px;
+	margin-top: 24px;
+	padding: 0px 12px;
+	background: url(../img/TextBox_normal.png) no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+
+.log_input input {
+	height: 35px;
+	line-height: 37px;
+	font-size: 16px;
+	width: 220px;
+	border: none;
+	outline: none;
+	background: transparent;
+	font-size: 14px;
+	line-height: 37px;
+	color: #999999;
+}
+
+.log_yz input {
+	width: 140px;
+}
+
+.yanzheng {
+	width: 102px;
+	height: 37px;
+	background: url(../img/bt_login.png) no-repeat;
+	background-position: 0px -222px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 37px;
+	color: #2f88d0;
+	font-size: 14px;
+}
+
+.errordiv {
+	width: 256px;
+	height: 17px;
+	margin-top: 0px;
+	overflow: hidden;
+}
+
+.errors {
+	border: 1px dotted #d21033;
+	background: #fed no-repeat 0.5px 0.25px;
+	color: #d21033;
+	padding-bottom: 0px;
+}
+
+.log_bt {
+	width: 256px;
+	height: 37px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.log_bt input {
+	width: 102px;
+	height: 37px;
+	float: left;
+	border: none;
+	cursor: pointer;
+}
+
+.log_bt input[type=submit]:focus {
+	outline: none;
+}
+
+.bt_ok {
+	background: url(../img/bt_login.png) no-repeat;
+	background-position: 0px 0px;
+}
+
+.bt_ag {
+	margin-left: 50px;
+}
+
+.bt_ag {
+	background: url(../img/bt_login.png) no-repeat;
+	background-position: 0px -111px;
+}
+
+.d_shen {
+	width: 800px;
+	height: 14px;
+	line-height: 14px;
+	margin: 0 auto;
+	margin-top: 27px;
+}
+
+.gongsi {
+	width: 200px;
+	padding-left: 28px;
+	float: left;
+	position: relative;
+	font-size: 14px;
+	color: #666666;
+}
+
+.gongsi .gs_logo {
+	height: 24px;
+	width: 40px;
+	background: url(../img/gs_logo.png) no-repeat;
+	position: absolute;
+	left: 0;
+	top: -5px;
+}
+
+.wondertek {
+	float: right;
+	font-size: 14px;
+}
+
+.bt_action {
+	float: right;
+	padding-left: 21px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #333333;
+	margin-right: 24px;
+}
+
+.bt_app {
+	background: url(../img/app.png) no-repeat;
+	margin-top: 12px;
+}
+
+.bt_edit {
+	background: url(../img/edit.png) no-repeat;
+	margin-top: 12px;
+}
+
+.bt_exit {
+	background: url(../img/exit.png) no-repeat;
+	margin-top: 12px;
+}
+
+.admin {
+	float: right;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 12px;
+	margin-right: 24px;
+}
+
+.admin font {
+	font-size: 14px;
+}
+
+.list_bg {
+	width: 100%;
+	max-width: 1200px;
+	height: 510px;
+	margin: 0 auto;
+	background: url(../img/list_bg.png) no-repeat;
+	background-position: 50% 0;
+}
+
+.app_list {
+	width: 736px;
+	padding: 0px 32px;
+	height: 510px;
+	margin: 0 auto;
+}
+
+.app_list ul {
+	overflow: hidden;
+}
+
+.app_list ul li {
+	width: 124px;
+	margin: 0px 30px;
+	height: 96px;
+	margin-top: 28px;
+	float: left
+}
+
+.app_list li .app_bg {
+	width: 64px;
+	height: 64px;
+	margin: 0px 30px;
+	background: url(../img/app_normal.png) no-repeat;
+}
+
+.app_list li a:hover .app_bg {
+	background: url(../img/app_mouseover.png) no-repeat;
+}
+
+.app_list li p {
+	font-size: 18px;
+	color: #071933;
+	line-height: 18px;
+	margin-top: 12px;
+	text-align: center;
+	width: 124px;
+	height: 18px;
+}
+
+.app_list li #app_none {
+	background: url(../img/app_gap.png) no-repeat;
+}
+
+.sys_header {
+	height: 62px;
+	width: 100%;
+	background: url(../img/bar_bg_extend.png) repeat-x;
+	overflow: hidden;
+}
+
+.sys_h_l {
+	height: 62px;
+	width: 100%;
+	max-width: 1200px;
+	background: url(../img/bar_bg.png) no-repeat;
+	background-position: 50% 0;
+	float: left;
+}
+
+.sys_oms {
+	height: 30px;
+	width: 135px;
+	padding: 0px 36px;
+	margin: 11px 0px;
+	border-right: 1px solid #6792c8;
+	float: left;
+}
+
+.sys_name {
+	color: #163649;
+	font-size: 16px;
+	line-height: 28px;
+	height: 28px;
+	margin: 17px 16px;
+	float: left;
+}
+
+.sys_h_r {
+	height: 16px;
+	margin: 21px 0px;
+	float: right;
+	padding-right: 44px;
+}
+
+.bt_sys_1 {
+	background: url(../img/app.png) no-repeat;
+	margin: 0px 16px;
+}
+
+.bt_sys_2 {
+	background: url(../img/exit.png) no-repeat;
+	margin: 0px 16px;
+}
+
+.bt_sys_3 {
+	background: url(../img/help.png) no-repeat;
+	margin: 0px 16px;
+}
+
+.bt_sys_4 {
+	background: url(../img/edit.png) no-repeat;
+	margin: 0px 16px;
+}
+
+.sys_user {
+	font-size: 12px;
+	color: #333333;
+	float: right;
+	padding-right: 48px;
+}
+
+.sys_user font {
+	color: #163649;
+	font-size: 14px;
+}
+
+.sys_app_list {
+	width: 220px;
+	position: absolute;
+	top: 62px;
+	right: 40px;
+	overflow: hidden;
+}
+
+.sys_app_list li {
+	width: 220px;
+	height: 34px;
+	float: left;
+}
+
+.sys_app_li {
+	width: 200px;
+	height: 32px;
+	background-color: #d4e0f2;
+	border: 1px solid #a3a3a3;
+	border-top: 1px solid #e2eaf6;
+	overflow: hidden;
+}
+
+.applist_icon {
+	width: 18px;
+	height: 18px;
+	padding: 7px 14px 7px 24px;
+	float: left;
+}
+
+.applist_name {
+	width: 140px;
+	height: 20px;
+	padding-top: 10px;
+	font-size: 12px;
+	color: #333333;
+	float: left;
+}
+
+.sys_app_list li a:hover .sys_app_li {
+	background-color: #f0f7ff;
+}
+
+.sys_bottom {
+	width: 100%;
+	height: 9px;
+	padding: 8px 0px;
+	background: url(../img/bottom_bar_bg.png) repeat-x;
+	position: absolute;
+	bottom: 0px;
+	font-size: 13px;
+	color: #666666;
+}
+
+/*edit password*/
+.user_edit {
+	width: 1200px;
+	height: 510px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-size: 14px;
+	background: url(../img/list_bg.png) no-repeat;
+}
+
+.edit_con {
+	float: left;
+	margin-left: 300px;
+	margin-top: 55px;
+	width: 376px;
+}
+
+.edit_tab {
+	width: 376px;
+	overflow: hidden;
+}
+
+.edit_tab li {
+	float: left;
+	width: 188px;
+	height: 35px;
+	background: url(../images/editImges/edit_tab1.png) repeat-x;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	color: #1a1a1a;
+}
+
+.edit_tab li.cur {
+	background: url(../images/editImges/edit_tab2.png) no-repeat;
+}
+
+.edit_input input,.edit_input textarea {
+	width: 312px;
+	border: 1px solid #a7abae;
+	height: 33px;
+	line-height: 33px;
+	padding-left: 62px;
+	font-size: 14px;
+}
+
+.edit_input p {
+	line-height: 26px;
+	font-size: 14px;
+	color: #990000;
+	margin-left: 12px;
+}
+
+#paword3 textarea {
+	height: 99px;
+}
+
+#paword3 {
+	margin-bottom: 35px;
+	position: relative;
+}
+
+#paword3 span#ps3_num {
+	position: absolute;
+	top: 81px;
+	right: 8px;
+	font-size: 12px;
+	color: #999999;
+}
+
+#paword3 span#ps3_num em {
+	font-style: normal;
+	color: #0177b9;
+}
+
+.edit_bt {
+	width: 314px;
+	height: 35px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.edit_bt input {
+	height: 35px;
+	width: 102px;
+	line-height: 35px;
+	font-size: 12px;
+	text-align: center;
+	color: #666666;
+	display: block;
+	float: left;
+	border: none
+}
+
+/*#submit{background:url(../images/editImges/edit_bt.png) no-repeat;}*/
+.bt_reset {
+	margin-left: 110px;
+	background: url(../img/bt_nor.png) no-repeat;
+}
+
+.edit_bt a span {
+	height: 35px;
+	width: 102px;
+	background: url(../img/bt_nor.png) no-repeat;
+	line-height: 35px;
+	font-size: 12px;
+	text-align: center;
+	color: #666666;
+	display: block;
+	float: left;
+}
+
+.edit_bt a:hover span {
+	background: url(../img/bt_over.png) no-repeat;
+	color: #2f88d0;
+}
+
+.edit_bt a span#right {
+	float: right;
+}
+
+.edit_tip {
+	width: 242px;
+	float: left;
+	margin-left: 25px;
+	font-size: 12px;
+	line-height: 24px;
+	color: #4c4c4c;
+	margin-top: 56px;
+}
+
+.edit_bottom {
+	width: 100%;
+	border-top: 1px solid #d3d5d6;
+	position: absolute;
+	bottom: 0px;
+	background-color: #FFFFFF;
+}
+
+.edit_bottom .d_shen {
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+
+.edit_bt a span#back {
+	margin: 0 auto;
+	float: none;
+}
+
+.edit_input {
+	position: relative;
+}
+
+.input_name {
+	position: absolute;
+	left: 12px;
+	top: 0;
+	line-height: 35px;
+}
+
+.code {
+	font-family: Arial;
+	font-style: italic;
+	color: blue;
+	font-size: 30px;
+	border: 0;
+	padding: 2px 3px;
+	letter-spacing: 3px;
+	font-weight: bolder;
+	float: left;
+	cursor: pointer;
+	width: 80px;
+	height: 80px;
+	line-height: 60px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #288bc4;
+}
+
+a:hover {
+	text-decoration: underline;
+}

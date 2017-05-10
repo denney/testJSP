@@ -1,0 +1,25 @@
+.ui-pg-table tbody tr .ui-pg-button .ui-icon{
+	color: orange;
+}
+textarea{ resize:none;}
+
+.ui-jqgrid .ui-jqgrid-bdiv{
+	overflow: visible;
+}
+.ui-jqgrid tr.jqgrow td {
+	text-overflow : ellipsis;
+}
+
+a:hover{
+	text-decoration:none;cursor: pointer;
+}
+
+.formbox{width:100%;margin:10px auto;}
+.formcon{padding:10px 0;border:solid 1px #ddd}
+/* flow_steps */
+.flow_steps{height:23px;overflow:hidden;}
+.flow_steps li{list-style-type:none;float:left;height:23px;padding:0 15%;line-height:23px;text-align:center;background:url(/pages/baseManager/img/barbg.png) no-repeat 100% 0 #E4E4E4;font-weight:bold;}
+.flow_steps li.done{background-position:100% 0px;background-color:#E4E4E4;}
+.flow_steps li.current_prev{background-position:100% 0px;background-color:#E4E4E4;}
+.flow_steps li.current{color:#fff;background-color:#00A2CA;}
+.flow_steps li#qzfs.current,.flow_steps li.last{background-image:none;}
