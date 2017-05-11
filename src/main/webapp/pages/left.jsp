@@ -13,38 +13,73 @@
 	<ul class="nav nav-list" id="left_menu">
 	<!--    基础管理功能 start    -->
 		<li>
-			<a href="#" class="dropdown-toggle"> 
-				<i class="menu-icon fa fa-desktop"></i> 
-				<span class="menu-text">基础管理 </span> 
+			<a href="#" class="dropdown-toggle">
+				<i class="menu-icon fa fa-desktop"></i>
+				<span class="menu-text">基础管理 </span>
 				<b class="arrow fa fa-angle-down"></b>
 			</a> <b class="arrow"></b>
 
 			<ul class="submenu">
 				<li>
-					<a href="#" menu-url="<c:url value='innerMessage'/>">
+					<a href="#" menu-url="<c:url value='app'/>">
 						站内信管理
-					</a> 
+					</a>
 					<b class="arrow"></b>
 				</li>
 				<li>
 					<a href="#" menu-url="<c:url value='app'/>">
 						App管理
-					</a> 
+					</a>
 					<b class="arrow"></b>
 				</li>
 				<li>
-					<a href="#" menu-url="<c:url value='user'/>">
+					<a href="#" menu-url="<c:url value='app'/>">
 						用户设置信息
-					</a> 
+					</a>
 					<b class="arrow"></b>
 				</li>
 				<li>
-					<a href="#" menu-url="<c:url value='messageInfo'/>">
+					<a href="#" menu-url="<c:url value='app'/>">
 						消息信息
-					</a> 
+					</a>
 					<b class="arrow"></b>
 				</li>
-			</ul>	
+			</ul>
+		</li>
+		<!--    基础管理功能 start    -->
+		<li>
+			<a href="#" class="dropdown-toggle">
+				<i class="menu-icon fa fa-desktop"></i>
+				<span class="menu-text">基础管理 </span>
+				<b class="arrow fa fa-angle-down"></b>
+			</a> <b class="arrow"></b>
+
+			<ul class="submenu">
+				<li>
+					<a href="#" menu-url="<c:url value='app'/>">
+						站内信管理
+					</a>
+					<b class="arrow"></b>
+				</li>
+				<li>
+					<a href="#" menu-url="<c:url value='app'/>">
+						App管理
+					</a>
+					<b class="arrow"></b>
+				</li>
+				<li>
+					<a href="#" menu-url="<c:url value='app'/>">
+						用户设置信息
+					</a>
+					<b class="arrow"></b>
+				</li>
+				<li>
+					<a href="#" menu-url="<c:url value='app'/>">
+						消息信息
+					</a>
+					<b class="arrow"></b>
+				</li>
+			</ul>
 		</li>
 	</ul>
 	<!--    基础管理功能 end    -->

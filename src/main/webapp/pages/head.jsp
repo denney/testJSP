@@ -55,7 +55,7 @@
 					<a href="#" class="navbar-brand no-padding">
 						<small class="clearfix">
 							<i class="navbar-logo pull-left"></i>
-							<span class="navbar-title pull-left"><fmt:message key="webapp.name" /></span>
+							<span class="navbar-title pull-left"><%--<fmt:message key="标题" />--%>呃</span>
 						</small>
 					</a>
 
