@@ -183,7 +183,7 @@
 			</jsp:include>
 			<div class="main-content">
 				<div class="main-content-inner" id="main_page">
-					<%-- <jsp:include page="/pages/info/test.jsp" /> --%>
+					<%-- <jsp:include page="/pages/info/ReadCmdLine.jsp" /> --%>
 				</div>
 			 </div>
 			<jsp:include page="/pages/footer.jsp" />
