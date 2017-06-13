@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p>Get your greeting <a href="/greeting">here</a></p>
+
+<p>多文件上传1</p>
+<form method="POST" enctype="multipart/form-data" action="/vote/save">
+
+    appId: <input type="text" name="appId" value="23123131">
+    <br><br>
+    posterUrl:<input type="text" name="posterUrl" value="a.png">
+    <br><br>
+    choiceType:<input type="text" name="choiceType" value="0">
+    <br><br>
+    endTime:<input type="text" name="endTime" value="2017-05-24 06:02:20">
+    <br><br>
+    description:<input type="text" name="description" value="description">
+    <br><br>
+    severalTimes:<input type="text" name="severalTimes" value="123">
+    <br><br>
+    startTime:<input type="text" name="startTime" value="2016-05-24 06:02:20">
+    <br><br>
+    title:<input type="text" name="title" value="title">
+    <br><br>
+    timeInterval:<input type="text" name="timeInterval" value="1">
+    <br><br>
+    options:<input type="text" name="options" value="A|right@B|error">
+    <br><br>
+    cost:<input type="text" name="cost" value="123">
+    <br><br>
+    type:<input type="text" name="type" value="1">
+    <br><br>
+    memberLevel:<input type="text" name="memberLevel" value="123">
+    <br><br>
+
+    <p>文件1：<input type="file" name="posterImg_file" /></p>
+    <p>文件2：<input type="file" name="file" /></p>
+    <p>文件3：<input type="file" name="file" /></p>
+
+
+    <p><input type="submit" value="上传" /></p>
+</form>
+</body>
+</html>
