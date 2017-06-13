@@ -54,7 +54,6 @@
 
 
 
-
         <!--开发者工具-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -89,7 +88,7 @@
 
 
 
-        ReadCmdLinetest-->
+        <!--test-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
