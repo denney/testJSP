@@ -40,7 +40,6 @@ public class A {
 
 //    23232
 
-
 //    3434
 
 //	22
@@ -54,8 +53,10 @@ public class A {
 //1111111111111111
 
 
+
     //idea =======idea22222222
 
 
 //	eeeeeeeeeeeeeee
+
 }
