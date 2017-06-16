@@ -34,12 +34,21 @@ public class A {
 
 //	69549
 
-	
+
 //	eclipse
 
 
 //    23232
-	
-//	22
 
+//    3434
+
+//	22
+//    dsflkjdslfdjs
+
+
+
+
+    //idea =======idea
+
+//1111111111111111
 }
