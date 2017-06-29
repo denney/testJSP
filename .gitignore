@@ -19,6 +19,6 @@ target/
 nbproject/private/
 build/
 nbbuild/
-dist/
+src/main/resources/static/
 nbdist/
 .nb-gradle/
